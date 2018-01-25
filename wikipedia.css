@@ -1,8 +1,11 @@
-body {
+html, body {
     background-color: hsl(0, 100%, 50%);
+    margin: 0;
+    height: 100%;
 }
 
 #header {
+    margin-top: 3%;
     color: hsl(180, 100%, 10%);
 }
 
@@ -19,5 +22,7 @@ body {
 }
 
 .field {
-    margin-left: 431px;
+    margin: 0 40%;
+    padding: 5px 0 5px 5px;
+    width: 20%;
 }
